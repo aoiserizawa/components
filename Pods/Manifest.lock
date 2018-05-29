@@ -1,0 +1,20 @@
+PODS:
+  - Alacrity (0.3.8)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Alacrity
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alacrity
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alacrity: e6d07c69a82d921f3230bc54520016a9c441efc9
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: 84367944b3813ceb3d279f063d08d9f8aee9b656
+
+COCOAPODS: 1.5.2

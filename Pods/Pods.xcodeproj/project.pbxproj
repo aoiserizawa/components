@@ -1,0 +1,1051 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B9F92C95ADE87385DDAE1CDD04E522 /* AlacrityTableViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5915736EEEFFFC28FE87634C25970 /* AlacrityTableViewDSL.swift */; };
+		04F6E7750F38B2BFAD6F76FB8A6B94AA /* AlacrityDatePickerDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF203F48364C9FAD5CA1BE5D4AB8784A /* AlacrityDatePickerDSL.swift */; };
+		07776041A816812DA9A9218155F8DD5B /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD255D2CDCBC0B54FCBA1B7E263682 /* ConstraintViewDSL.swift */; };
+		0A40F582F4B4621AA5270BB07E81FD8A /* AlacrityImageViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D195CA5B220F5F8EA07144580314D7 /* AlacrityImageViewDSL.swift */; };
+		0B9A7BE9EC553D7761DD75A2DFC82BAF /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C143398600907665434833D530094A91 /* ConstraintInsets.swift */; };
+		0BCF63C0D8A71BCCEEEC2BA62994C473 /* UITextView+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B496549547401A8251B9E30ACCEB4F9 /* UITextView+Alacrity.swift */; };
+		0D984E602B6E5C103497F0E828501327 /* ViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC465A22FF94216F505AEBEE1D1846 /* ViewDSL.swift */; };
+		0E1279E998027172E84223814AD2FA03 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7C03293A283EB67F9C805257080CE /* ConstraintMaker.swift */; };
+		0F8A49B195AC3731A8C85832CE169EA4 /* ControlDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45884AC11C96B4C1F9F4900791D4389 /* ControlDSL.swift */; };
+		0FB15BFA9221F59997BFA782593E1397 /* AlacrityProgressViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29079282EAD0493BE193D3F3C797F598 /* AlacrityProgressViewDSL.swift */; };
+		115C374EEBF02E6A6BE8E507C26D2FCF /* AlacrityWebViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E89E030E0CB6FFD6AB975C7FB8A49 /* AlacrityWebViewDSL.swift */; };
+		14929B76EF24CD97E625D530CE34C87C /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40D8FD964B873C0D3AA8DCFBC837BBB /* ConstraintDSL.swift */; };
+		14B4A1270F1530BF667FA62CE48CDAD6 /* UISlider+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A67B162D3D1240D2273DD0A9E4245 /* UISlider+Alacrity.swift */; };
+		164B3CF9774553A65574492E39A856DC /* UIStepper+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF755BC817B59339628F9456155224 /* UIStepper+Alacrity.swift */; };
+		193D7BCB85C5FEED317DAB2A676E98A8 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D0C4235083FD209F0804E975A6FE8 /* ConstraintPriorityTarget.swift */; };
+		1BC129E8884AA4E1FD66FCC5C7D7D8C5 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F559EA40F7E1A6837178F7AC94527 /* ConstraintConstantTarget.swift */; };
+		2146338F9F6437308E54638771BE3820 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A371BD15143E51A8F6E4575BC1A719 /* ConstraintInsetTarget.swift */; };
+		267CF90AC17546FAFB35CC4F0E6C8D97 /* AlacrityScrollViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C233A8176749228BA539341D204EA92 /* AlacrityScrollViewDSL.swift */; };
+		27B2FF5642E14FEECE29F2707B0E7E1F /* UIProgressView+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C498CEC98831E0957389F8B6E505FDD /* UIProgressView+Alacrity.swift */; };
+		2F401E2EBCFDBEFD53829CE92053E28E /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0A0B2EE3102FC1AED0A8985B3DD56 /* LayoutConstraint.swift */; };
+		3459048502D2ECA3F2F6478863D18CB3 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3C62AC9CD9AA62892A2A463B1CA90E /* LayoutConstraintItem.swift */; };
+		3521533CA3B144F3F73AE254FDB7C51B /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2892B5D316744F6A816DED815DA3DDB /* ConstraintMakerFinalizable.swift */; };
+		364CA19C20D7B537E038365770EF74AE /* Alacrity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE163B736188D04973E06757CDFAF21 /* Alacrity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3666C321C39108983D5DD6F789708828 /* UITableView+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE38C9D8BC0D6AFFF68CC4D9271CAF31 /* UITableView+Alacrity.swift */; };
+		37C8F7CBEB0D19532262D09BFCF30621 /* UILabel+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340CE770ADDAA915ED53F31650ABE3DC /* UILabel+Alacrity.swift */; };
+		3D786319B3B59D51D6B19EBCFF94838B /* UIPageControl+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C56AC4679CF25C09B120D93C6A88F4A /* UIPageControl+Alacrity.swift */; };
+		3E995FEE854C494B8FEBE4ACB3ECD85F /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8BD682AC308B269994D5FC423FB9D /* SnapKit-dummy.m */; };
+		3EE6485BB10C270D24DFADB5E90E7723 /* UIScrollView+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352EB4038A3308AFF0EB78AA37359439 /* UIScrollView+Alacrity.swift */; };
+		3FA34E4EA55EE1D7B53E37CA47CB74DF /* AlacrityLabelDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6713D12116144DEDE9134E97F02A19 /* AlacrityLabelDSL.swift */; };
+		44A75D1A2E33EC9B5E986F2BBE4C7B95 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439BBCD59C2F8B210DE0E025431DF469 /* ConstraintMakerRelatable.swift */; };
+		44B1BA1092AEB8D864FD5E03AAA234AE /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04107F0FA8260FC59828D8ADC6452FF /* ConstraintLayoutSupport.swift */; };
+		47231C85417B8CFE9AB2DE041CBEB1FE /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85552B84EB15A8C9CA14AAE19B654203 /* ConstraintView+Extensions.swift */; };
+		47F4793D5F705F17D628AFB2EFE9BA9B /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D2BA752F2676BB6E148C9DA338E92 /* ConstraintMultiplierTarget.swift */; };
+		5C6D1991C0CEC76E58C8E4D7E7557B26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6229D52196F699545745173D553DF246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		62EB7012C43F5E43AAC3B0C162F37EC6 /* Pods-Components-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E1D6C1C9EE95A0EC4499CE762EA46F1 /* Pods-Components-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		675B92CA73744D19C3400D123A07DF9E /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2FEAEA4EA76E13C80376F97A11E08F /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B397F20E45E1C822E612EBA109E405A /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC151323C79D27B52110EA74B709310 /* ConstraintRelation.swift */; };
+		6B62437B861212DE0FBA74173F73D16E /* AlacrityTextFieldDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52E8533B52AD381711977BECBE7E27 /* AlacrityTextFieldDSL.swift */; };
+		6F69953A26AD74D6D0D943485E96C02E /* AlacritySwitchDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693BC319F09662C4B5B0912752A39859 /* AlacritySwitchDSL.swift */; };
+		7401D4EEFECD4944A92E8D88F40EAAF9 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20933C62264A7E83CB0BE201673349E6 /* Typealiases.swift */; };
+		74DBDEC396FA2902B5830064D8F85CF4 /* AlacritySliderDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB20CCB0B938CBC744058B2E79CDD6 /* AlacritySliderDSL.swift */; };
+		77A9C6D0C95070FEDFABE9294C75586C /* UICollectionView+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1E3B7D85E5E6F00643C70818823523 /* UICollectionView+Alacrity.swift */; };
+		79F9C650EE832EE673175F751F292BD7 /* UIButton+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173E628DE9DD33AA462CDF17F13B8B88 /* UIButton+Alacrity.swift */; };
+		85981A76D6DC4E16C28782BB8D51F22F /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D448345E83B3E723FBF342DA40063E9 /* ConstraintView.swift */; };
+		85B6B4ACE41F5D169B5E53C06DCFA099 /* UITableViewCell+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF2A8242CFB0210BD97CF926382DD93 /* UITableViewCell+Alacrity.swift */; };
+		87A6A663CE9548701DD7EF9580CA7F80 /* AlacrityPageControlDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FB6838EDE36CB20E5E6B43CA1EC265 /* AlacrityPageControlDSL.swift */; };
+		8850476F7859958DB1A85C676E1E6BD1 /* UIActivityIndicatorView+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00010BCBA838D7FC5C762871CF6370A0 /* UIActivityIndicatorView+Alacrity.swift */; };
+		891240B02B26E1CF14BBF8D1B1078A38 /* UIImageView+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952043EC29FE6838ECC09639FBB89E89 /* UIImageView+Alacrity.swift */; };
+		8D63075DAAD095EA6C2EB97636F1FF17 /* AlacrityTextViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50011E80857913FD5BFB4D102948E3 /* AlacrityTextViewDSL.swift */; };
+		951F22FCA975358E44B1C27916D99E09 /* Alacrity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF61642D357A0292376011F1DA691CCA /* Alacrity-dummy.m */; };
+		956E41581DC328675ADF659BFCB0270D /* AlacrityButtonDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F91862084CF1BECE3D417088DC04C1 /* AlacrityButtonDSL.swift */; };
+		9FAF8E230F9D4FB32A299264215E5EB1 /* AlacrityStepperDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077D23784F26641ED9E30B19E434839 /* AlacrityStepperDSL.swift */; };
+		A3C7D7AB03FF6000083B225CCDD46E47 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7983ACAFD439385968BF5AAAF54EC520 /* ConstraintDescription.swift */; };
+		A4F35D06B38C2E69538129DB742ECD70 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90A8B47DD6269C379031651AF9CA9FC /* ConstraintItem.swift */; };
+		A559459A188AF5A7A70890197A695123 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B017624A1A0AA1F3427DFE1A5094F /* ConstraintOffsetTarget.swift */; };
+		AA89392A70FA6D217708825B68643CA1 /* UIWebView+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B80CF068AB4E5A891250B3A2689477 /* UIWebView+Alacrity.swift */; };
+		AB056EC689BE5F9DFFF1DB50945C91CE /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17BE2EC922D0AC844F35E73725B267 /* Constraint.swift */; };
+		AB122020032079F551971A75B12370D9 /* AlacrityCollectionViewCellDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EE4D56DD4932A68F99852EB9AB54EE /* AlacrityCollectionViewCellDSL.swift */; };
+		AC7CFCD6F89DB766C65377C19B9B593D /* UITextField+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9573728649A27FA9F8A4FD88157768A /* UITextField+Alacrity.swift */; };
+		AF56AFB9E4801431E4FCA0B04B023926 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF08BD2F536477E51A0498D9D58D29 /* ConstraintLayoutGuideDSL.swift */; };
+		B029D62889454C3B58BA8FB7BB147FFF /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18380ECDF1208256B0B7A5E629C7EA9 /* Debugging.swift */; };
+		B31735DE4021FF6EEA6E8380957BC2AF /* AlacrityTableViewCellDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C92AADA067C2A07B21EF8C2F14B655 /* AlacrityTableViewCellDSL.swift */; };
+		B318367E53FF996F6E252B5D44A30AFE /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7841C732BE55DAAF47D64711C5DA83F /* ConstraintAttributes.swift */; };
+		B60C5DC963F7161BCFFE47EC53EB65D6 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886BA4A750F5DF8CE127CEF4AC835919 /* ConstraintMakerExtendable.swift */; };
+		B78D9C1ED0B9CF23FE4DE36B43371A1B /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5098C99D6EC30610F9549DC9A0139039 /* ConstraintLayoutSupportDSL.swift */; };
+		B7B6D640AEFC3B336C374EE2F2E34AE0 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A1CC917C4E4981EA10A31A62635A7 /* ConstraintLayoutGuide.swift */; };
+		BB47FE2434286B18EDE1536701E8F753 /* UIDatePicker+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38356FBEC2B44C5470C9644716F153D7 /* UIDatePicker+Alacrity.swift */; };
+		C1CEFD2429C9B1E1A9CAB89295DB06AE /* AlacrityStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1780292A7FA0208C90C4B3559BB5EF /* AlacrityStyle.swift */; };
+		C9A84D984D77DB9E6789E463BDFD4850 /* AlacritySegmentedControlDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A744CCFAC0E5D3CE1C4EB0B065A7A7C /* AlacritySegmentedControlDSL.swift */; };
+		CC6C31A37E89FAC4F087893ED66EBCC9 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4433F7E4BCC1EAF2DF6000D38A465DB /* ConstraintLayoutGuide+Extensions.swift */; };
+		CDFCEEDD3C04B291DCE5F09DD9867D36 /* UIPickerView+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D6387C6E9D95E81F1E2E632D8171C /* UIPickerView+Alacrity.swift */; };
+		CEC89D4F31E5555F6F41A1E8A65EDAD4 /* UIView+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7CCB336370FB3A79351543B393388 /* UIView+Alacrity.swift */; };
+		D392BB08C1AD24BC17337E443A64745A /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E3FCA610C8F4B23C19D29AB457205A /* ConstraintMakerPriortizable.swift */; };
+		D572A7167D3ED651E41C5255A0E9202F /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6939485DECAB677502F55BB418AA9A /* ConstraintRelatableTarget.swift */; };
+		DA5B35C6C3A46E892B10AC89078444EE /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B24F882A8F703C34BDBBEA324DF0C /* ConstraintPriority.swift */; };
+		DC90F6C35A434E69589F57D3D73F79F7 /* Pods-Components-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E83D7D5709D5DF9BBC10B641B79B09 /* Pods-Components-dummy.m */; };
+		E2892F759B676EA1F9CF2542BEB3E9D1 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598E7411F2F73C69FBBDD979A3DEF9C7 /* ConstraintMakerEditable.swift */; };
+		E362852F6FE721BDDEE62C4B14CD2C99 /* AlacrityCollectionViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD572A9B2B385E553D2D9FB320EAD6E /* AlacrityCollectionViewDSL.swift */; };
+		E53440D9ACB420EAB3AE1C61BD3801F1 /* AlacrityActivityIndicatorDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9057E8B0563792260CA19846546D4218 /* AlacrityActivityIndicatorDSL.swift */; };
+		E70FDFFCEF0B5D8A7850DD1AC3C23479 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A857130630E2A77CFBD76CF32BD27 /* ConstraintConfig.swift */; };
+		E9630B48D481C785A60300FD409E5A4E /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3709F81DA5D460D2FA4717280DD62419 /* UILayoutSupport+Extensions.swift */; };
+		EA2290554BF29ADE3B77AE396B5A775D /* AlacrityPickerViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F73B4C3645E9902651EC4F37728C0E9 /* AlacrityPickerViewDSL.swift */; };
+		F0AA812DE6977D3F9C4540D09E3ED0C4 /* UISegmentedControl+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51FCF8986A770689DFE309ADACAC21 /* UISegmentedControl+Alacrity.swift */; };
+		F0C0110A9D69CC7D14D66742673FCEB5 /* UICollectionViewCell+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE50382F14CBB3F7A591BDF3C18C876 /* UICollectionViewCell+Alacrity.swift */; };
+		F51A9A9D0CBE92122B6E24FF92896684 /* UISwitch+Alacrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94F463B555A2CB69C5A06C70B5BA9F /* UISwitch+Alacrity.swift */; };
+		F8A1789A6F77AE4DAC733921A363427A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		FA89F7D0763D4452B7388E48691AF2FD /* AlacrityViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75F8FEFCF9A9F048A1A1DCF753A2FB6 /* AlacrityViewDSL.swift */; };
+		FBF7D083B4BC0887446153E310BADDE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		124187760759BC854F0557C822837D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFFAC91E7F77DC2AD42A54027AEFEF60;
+			remoteInfo = Alacrity;
+		};
+		14E96529B76E5661BD020C9F292AEE14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5960B5EE6B3DA2D87506476F5AF097D;
+			remoteInfo = SnapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00010BCBA838D7FC5C762871CF6370A0 /* UIActivityIndicatorView+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIActivityIndicatorView+Alacrity.swift"; path = "Sources/Extensions/UIActivityIndicatorView+Alacrity.swift"; sourceTree = "<group>"; };
+		06735DB6764C899ABB89F43BBA6AD19F /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		097D2BA752F2676BB6E148C9DA338E92 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		0AFF755BC817B59339628F9456155224 /* UIStepper+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStepper+Alacrity.swift"; path = "Sources/Extensions/UIStepper+Alacrity.swift"; sourceTree = "<group>"; };
+		0D3C62AC9CD9AA62892A2A463B1CA90E /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		12BC20A8DB1E5500A29DAB1DD8C14258 /* Pods-Components-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Components-acknowledgements.plist"; sourceTree = "<group>"; };
+		173ABE079A97602F4CAFFDF7434AFA0C /* Alacrity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alacrity.xcconfig; sourceTree = "<group>"; };
+		173E628DE9DD33AA462CDF17F13B8B88 /* UIButton+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Alacrity.swift"; path = "Sources/Extensions/UIButton+Alacrity.swift"; sourceTree = "<group>"; };
+		18C0A0B2EE3102FC1AED0A8985B3DD56 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		198573DAD5CEB2987E5AAF956ED38F9C /* Pods-Components-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Components-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C3A67B162D3D1240D2273DD0A9E4245 /* UISlider+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISlider+Alacrity.swift"; path = "Sources/Extensions/UISlider+Alacrity.swift"; sourceTree = "<group>"; };
+		1D448345E83B3E723FBF342DA40063E9 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		1DC151323C79D27B52110EA74B709310 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		1E1D6C1C9EE95A0EC4499CE762EA46F1 /* Pods-Components-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Components-umbrella.h"; sourceTree = "<group>"; };
+		1FE50382F14CBB3F7A591BDF3C18C876 /* UICollectionViewCell+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionViewCell+Alacrity.swift"; path = "Sources/Extensions/UICollectionViewCell+Alacrity.swift"; sourceTree = "<group>"; };
+		20933C62264A7E83CB0BE201673349E6 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		24F7CCB336370FB3A79351543B393388 /* UIView+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Alacrity.swift"; path = "Sources/Extensions/UIView+Alacrity.swift"; sourceTree = "<group>"; };
+		29079282EAD0493BE193D3F3C797F598 /* AlacrityProgressViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityProgressViewDSL.swift; path = Sources/Structs/AlacrityProgressViewDSL.swift; sourceTree = "<group>"; };
+		2BBA4A8989BDB0F1D68BD20FCAC13EEB /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2FEAEA4EA76E13C80376F97A11E08F /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		30DD255D2CDCBC0B54FCBA1B7E263682 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		31E3FCA610C8F4B23C19D29AB457205A /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		32BEC5840BC56FA851D1A55EC2DC5AA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33ADDE1655285DD22D2F73202208C35C /* Pods-Components.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Components.modulemap"; sourceTree = "<group>"; };
+		340CE770ADDAA915ED53F31650ABE3DC /* UILabel+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Alacrity.swift"; path = "Sources/Extensions/UILabel+Alacrity.swift"; sourceTree = "<group>"; };
+		352EB4038A3308AFF0EB78AA37359439 /* UIScrollView+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Alacrity.swift"; path = "Sources/Extensions/UIScrollView+Alacrity.swift"; sourceTree = "<group>"; };
+		3709F81DA5D460D2FA4717280DD62419 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		38356FBEC2B44C5470C9644716F153D7 /* UIDatePicker+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDatePicker+Alacrity.swift"; path = "Sources/Extensions/UIDatePicker+Alacrity.swift"; sourceTree = "<group>"; };
+		3C233A8176749228BA539341D204EA92 /* AlacrityScrollViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityScrollViewDSL.swift; path = Sources/Structs/AlacrityScrollViewDSL.swift; sourceTree = "<group>"; };
+		3D71DDE89DE7734C328EEC5A8294FFD7 /* Pods-Components-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Components-frameworks.sh"; sourceTree = "<group>"; };
+		3F7F559EA40F7E1A6837178F7AC94527 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		42570D7544B2209E456E1061EBA43971 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		439BBCD59C2F8B210DE0E025431DF469 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		48F91862084CF1BECE3D417088DC04C1 /* AlacrityButtonDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityButtonDSL.swift; path = Sources/Structs/AlacrityButtonDSL.swift; sourceTree = "<group>"; };
+		4B496549547401A8251B9E30ACCEB4F9 /* UITextView+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Alacrity.swift"; path = "Sources/Extensions/UITextView+Alacrity.swift"; sourceTree = "<group>"; };
+		4FD572A9B2B385E553D2D9FB320EAD6E /* AlacrityCollectionViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityCollectionViewDSL.swift; path = Sources/Structs/AlacrityCollectionViewDSL.swift; sourceTree = "<group>"; };
+		5098C99D6EC30610F9549DC9A0139039 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		524D0C4235083FD209F0804E975A6FE8 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		52F5915736EEEFFFC28FE87634C25970 /* AlacrityTableViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityTableViewDSL.swift; path = Sources/Structs/AlacrityTableViewDSL.swift; sourceTree = "<group>"; };
+		573B24F882A8F703C34BDBBEA324DF0C /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		598E7411F2F73C69FBBDD979A3DEF9C7 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		5B4A1CC917C4E4981EA10A31A62635A7 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		6451547BC33B12A6F2646B696BE87FA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693BC319F09662C4B5B0912752A39859 /* AlacritySwitchDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacritySwitchDSL.swift; path = Sources/Structs/AlacritySwitchDSL.swift; sourceTree = "<group>"; };
+		6A50011E80857913FD5BFB4D102948E3 /* AlacrityTextViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityTextViewDSL.swift; path = Sources/Structs/AlacrityTextViewDSL.swift; sourceTree = "<group>"; };
+		6BF2A8242CFB0210BD97CF926382DD93 /* UITableViewCell+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+Alacrity.swift"; path = "Sources/Extensions/UITableViewCell+Alacrity.swift"; sourceTree = "<group>"; };
+		6C498CEC98831E0957389F8B6E505FDD /* UIProgressView+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIProgressView+Alacrity.swift"; path = "Sources/Extensions/UIProgressView+Alacrity.swift"; sourceTree = "<group>"; };
+		7077D23784F26641ED9E30B19E434839 /* AlacrityStepperDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityStepperDSL.swift; path = Sources/Structs/AlacrityStepperDSL.swift; sourceTree = "<group>"; };
+		78EC465A22FF94216F505AEBEE1D1846 /* ViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewDSL.swift; path = Sources/Protocols/ViewDSL.swift; sourceTree = "<group>"; };
+		7983ACAFD439385968BF5AAAF54EC520 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		7A744CCFAC0E5D3CE1C4EB0B065A7A7C /* AlacritySegmentedControlDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacritySegmentedControlDSL.swift; path = Sources/Structs/AlacritySegmentedControlDSL.swift; sourceTree = "<group>"; };
+		85552B84EB15A8C9CA14AAE19B654203 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		86C92AADA067C2A07B21EF8C2F14B655 /* AlacrityTableViewCellDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityTableViewCellDSL.swift; path = Sources/Structs/AlacrityTableViewCellDSL.swift; sourceTree = "<group>"; };
+		886BA4A750F5DF8CE127CEF4AC835919 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		8A52E8533B52AD381711977BECBE7E27 /* AlacrityTextFieldDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityTextFieldDSL.swift; path = Sources/Structs/AlacrityTextFieldDSL.swift; sourceTree = "<group>"; };
+		8F73B4C3645E9902651EC4F37728C0E9 /* AlacrityPickerViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityPickerViewDSL.swift; path = Sources/Structs/AlacrityPickerViewDSL.swift; sourceTree = "<group>"; };
+		9057E8B0563792260CA19846546D4218 /* AlacrityActivityIndicatorDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityActivityIndicatorDSL.swift; path = Sources/Structs/AlacrityActivityIndicatorDSL.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		952043EC29FE6838ECC09639FBB89E89 /* UIImageView+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Alacrity.swift"; path = "Sources/Extensions/UIImageView+Alacrity.swift"; sourceTree = "<group>"; };
+		96EE4D56DD4932A68F99852EB9AB54EE /* AlacrityCollectionViewCellDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityCollectionViewCellDSL.swift; path = Sources/Structs/AlacrityCollectionViewCellDSL.swift; sourceTree = "<group>"; };
+		9BF63369538DD97D48C70F7BAC2DDD3B /* Pods_Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Components.framework; path = "Pods-Components.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C56AC4679CF25C09B120D93C6A88F4A /* UIPageControl+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPageControl+Alacrity.swift"; path = "Sources/Extensions/UIPageControl+Alacrity.swift"; sourceTree = "<group>"; };
+		A2892B5D316744F6A816DED815DA3DDB /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		AA6713D12116144DEDE9134E97F02A19 /* AlacrityLabelDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityLabelDSL.swift; path = Sources/Structs/AlacrityLabelDSL.swift; sourceTree = "<group>"; };
+		AD1A857130630E2A77CFBD76CF32BD27 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		AEE163B736188D04973E06757CDFAF21 /* Alacrity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alacrity-umbrella.h"; sourceTree = "<group>"; };
+		AF1780292A7FA0208C90C4B3559BB5EF /* AlacrityStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityStyle.swift; path = Sources/Structs/AlacrityStyle.swift; sourceTree = "<group>"; };
+		B40D8FD964B873C0D3AA8DCFBC837BBB /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7841C732BE55DAAF47D64711C5DA83F /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		B7B80CF068AB4E5A891250B3A2689477 /* UIWebView+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWebView+Alacrity.swift"; path = "Sources/Extensions/UIWebView+Alacrity.swift"; sourceTree = "<group>"; };
+		BE38C9D8BC0D6AFFF68CC4D9271CAF31 /* UITableView+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Alacrity.swift"; path = "Sources/Extensions/UITableView+Alacrity.swift"; sourceTree = "<group>"; };
+		BE8E89E030E0CB6FFD6AB975C7FB8A49 /* AlacrityWebViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityWebViewDSL.swift; path = Sources/Structs/AlacrityWebViewDSL.swift; sourceTree = "<group>"; };
+		BF17BE2EC922D0AC844F35E73725B267 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		BFC87EFBE68B48A29BDCD54FC2DF082A /* Pods-Components-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Components-resources.sh"; sourceTree = "<group>"; };
+		C04107F0FA8260FC59828D8ADC6452FF /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		C143398600907665434833D530094A91 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		C1D195CA5B220F5F8EA07144580314D7 /* AlacrityImageViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityImageViewDSL.swift; path = Sources/Structs/AlacrityImageViewDSL.swift; sourceTree = "<group>"; };
+		C1FB6838EDE36CB20E5E6B43CA1EC265 /* AlacrityPageControlDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityPageControlDSL.swift; path = Sources/Structs/AlacrityPageControlDSL.swift; sourceTree = "<group>"; };
+		C2A371BD15143E51A8F6E4575BC1A719 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		C2D7C03293A283EB67F9C805257080CE /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		C4433F7E4BCC1EAF2DF6000D38A465DB /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		C55D6387C6E9D95E81F1E2E632D8171C /* UIPickerView+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPickerView+Alacrity.swift"; path = "Sources/Extensions/UIPickerView+Alacrity.swift"; sourceTree = "<group>"; };
+		C6DF08BD2F536477E51A0498D9D58D29 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		C8DCDCB2E1166B1C95B81E7F97E6E991 /* Pods-Components.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Components.release.xcconfig"; sourceTree = "<group>"; };
+		C9573728649A27FA9F8A4FD88157768A /* UITextField+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Alacrity.swift"; path = "Sources/Extensions/UITextField+Alacrity.swift"; sourceTree = "<group>"; };
+		CA51FCF8986A770689DFE309ADACAC21 /* UISegmentedControl+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISegmentedControl+Alacrity.swift"; path = "Sources/Extensions/UISegmentedControl+Alacrity.swift"; sourceTree = "<group>"; };
+		CF61642D357A0292376011F1DA691CCA /* Alacrity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alacrity-dummy.m"; sourceTree = "<group>"; };
+		D10C3A3342C83782DDC681C4694C6779 /* Alacrity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alacrity.modulemap; sourceTree = "<group>"; };
+		D18380ECDF1208256B0B7A5E629C7EA9 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		D45884AC11C96B4C1F9F4900791D4389 /* ControlDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlDSL.swift; path = Sources/Protocols/ControlDSL.swift; sourceTree = "<group>"; };
+		D75F8FEFCF9A9F048A1A1DCF753A2FB6 /* AlacrityViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityViewDSL.swift; path = Sources/Structs/AlacrityViewDSL.swift; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBFA416E69F64A608F0B71F9F28F0639 /* Pods-Components.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Components.debug.xcconfig"; sourceTree = "<group>"; };
+		DC6939485DECAB677502F55BB418AA9A /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		E04875B9E2B19F2B59F07C475569B2E2 /* Alacrity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alacrity.framework; path = Alacrity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05B0DF76F72D05D97A5F93A905A8C6D /* Alacrity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alacrity-prefix.pch"; sourceTree = "<group>"; };
+		E0E83D7D5709D5DF9BBC10B641B79B09 /* Pods-Components-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Components-dummy.m"; sourceTree = "<group>"; };
+		E90A8B47DD6269C379031651AF9CA9FC /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		EA7F9D1FC018852E99D41AA062D7CAF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F8BD682AC308B269994D5FC423FB9D /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		FB2B017624A1A0AA1F3427DFE1A5094F /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		FC94731F7C5F32EC4BCB72E57E47C4B8 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		FCFB20CCB0B938CBC744058B2E79CDD6 /* AlacritySliderDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacritySliderDSL.swift; path = Sources/Structs/AlacritySliderDSL.swift; sourceTree = "<group>"; };
+		FD94F463B555A2CB69C5A06C70B5BA9F /* UISwitch+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISwitch+Alacrity.swift"; path = "Sources/Extensions/UISwitch+Alacrity.swift"; sourceTree = "<group>"; };
+		FF1E3B7D85E5E6F00643C70818823523 /* UICollectionView+Alacrity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Alacrity.swift"; path = "Sources/Extensions/UICollectionView+Alacrity.swift"; sourceTree = "<group>"; };
+		FF203F48364C9FAD5CA1BE5D4AB8784A /* AlacrityDatePickerDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlacrityDatePickerDSL.swift; path = Sources/Structs/AlacrityDatePickerDSL.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C25B1ECED45FEC391730A3719C6492D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A1789A6F77AE4DAC733921A363427A /* Foundation.framework in Frameworks */,
+				6229D52196F699545745173D553DF246 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21ECE2C161F1A6CB2F14A95C59CB34E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF7D083B4BC0887446153E310BADDE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03618048DE520D333DD90B0532FE2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6D1991C0CEC76E58C8E4D7E7557B26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16ED7AA17054296308D1AD6F3141C180 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6451547BC33B12A6F2646B696BE87FA1 /* Info.plist */,
+				FC94731F7C5F32EC4BCB72E57E47C4B8 /* SnapKit.modulemap */,
+				06735DB6764C899ABB89F43BBA6AD19F /* SnapKit.xcconfig */,
+				F3F8BD682AC308B269994D5FC423FB9D /* SnapKit-dummy.m */,
+				42570D7544B2209E456E1061EBA43971 /* SnapKit-prefix.pch */,
+				2D2FEAEA4EA76E13C80376F97A11E08F /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		17ED6A6C5CA7B65B64B2CCD452306ADC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FCD0D7FF0D2B01312C28563A821F384 /* Pods-Components */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2FCD0D7FF0D2B01312C28563A821F384 /* Pods-Components */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F9D1FC018852E99D41AA062D7CAF9 /* Info.plist */,
+				33ADDE1655285DD22D2F73202208C35C /* Pods-Components.modulemap */,
+				198573DAD5CEB2987E5AAF956ED38F9C /* Pods-Components-acknowledgements.markdown */,
+				12BC20A8DB1E5500A29DAB1DD8C14258 /* Pods-Components-acknowledgements.plist */,
+				E0E83D7D5709D5DF9BBC10B641B79B09 /* Pods-Components-dummy.m */,
+				3D71DDE89DE7734C328EEC5A8294FFD7 /* Pods-Components-frameworks.sh */,
+				BFC87EFBE68B48A29BDCD54FC2DF082A /* Pods-Components-resources.sh */,
+				1E1D6C1C9EE95A0EC4499CE762EA46F1 /* Pods-Components-umbrella.h */,
+				DBFA416E69F64A608F0B71F9F28F0639 /* Pods-Components.debug.xcconfig */,
+				C8DCDCB2E1166B1C95B81E7F97E6E991 /* Pods-Components.release.xcconfig */,
+			);
+			name = "Pods-Components";
+			path = "Target Support Files/Pods-Components";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				86549D6814B36C6F91AAC46D7308986C /* Pods */,
+				EFD7DEA88C82E0EEC2798C497A11B038 /* Products */,
+				17ED6A6C5CA7B65B64B2CCD452306ADC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86549D6814B36C6F91AAC46D7308986C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC4BDD8BC435EB70C45D4F02E5FA3F9A /* Alacrity */,
+				D91898C86D6F3C82FA1EDBFF50D756AB /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B02271EEBFF80EBC880DED7C140B140 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D10C3A3342C83782DDC681C4694C6779 /* Alacrity.modulemap */,
+				173ABE079A97602F4CAFFDF7434AFA0C /* Alacrity.xcconfig */,
+				CF61642D357A0292376011F1DA691CCA /* Alacrity-dummy.m */,
+				E05B0DF76F72D05D97A5F93A905A8C6D /* Alacrity-prefix.pch */,
+				AEE163B736188D04973E06757CDFAF21 /* Alacrity-umbrella.h */,
+				32BEC5840BC56FA851D1A55EC2DC5AA6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alacrity";
+			sourceTree = "<group>";
+		};
+		AC4BDD8BC435EB70C45D4F02E5FA3F9A /* Alacrity */ = {
+			isa = PBXGroup;
+			children = (
+				9057E8B0563792260CA19846546D4218 /* AlacrityActivityIndicatorDSL.swift */,
+				48F91862084CF1BECE3D417088DC04C1 /* AlacrityButtonDSL.swift */,
+				96EE4D56DD4932A68F99852EB9AB54EE /* AlacrityCollectionViewCellDSL.swift */,
+				4FD572A9B2B385E553D2D9FB320EAD6E /* AlacrityCollectionViewDSL.swift */,
+				FF203F48364C9FAD5CA1BE5D4AB8784A /* AlacrityDatePickerDSL.swift */,
+				C1D195CA5B220F5F8EA07144580314D7 /* AlacrityImageViewDSL.swift */,
+				AA6713D12116144DEDE9134E97F02A19 /* AlacrityLabelDSL.swift */,
+				C1FB6838EDE36CB20E5E6B43CA1EC265 /* AlacrityPageControlDSL.swift */,
+				8F73B4C3645E9902651EC4F37728C0E9 /* AlacrityPickerViewDSL.swift */,
+				29079282EAD0493BE193D3F3C797F598 /* AlacrityProgressViewDSL.swift */,
+				3C233A8176749228BA539341D204EA92 /* AlacrityScrollViewDSL.swift */,
+				7A744CCFAC0E5D3CE1C4EB0B065A7A7C /* AlacritySegmentedControlDSL.swift */,
+				FCFB20CCB0B938CBC744058B2E79CDD6 /* AlacritySliderDSL.swift */,
+				7077D23784F26641ED9E30B19E434839 /* AlacrityStepperDSL.swift */,
+				AF1780292A7FA0208C90C4B3559BB5EF /* AlacrityStyle.swift */,
+				693BC319F09662C4B5B0912752A39859 /* AlacritySwitchDSL.swift */,
+				86C92AADA067C2A07B21EF8C2F14B655 /* AlacrityTableViewCellDSL.swift */,
+				52F5915736EEEFFFC28FE87634C25970 /* AlacrityTableViewDSL.swift */,
+				8A52E8533B52AD381711977BECBE7E27 /* AlacrityTextFieldDSL.swift */,
+				6A50011E80857913FD5BFB4D102948E3 /* AlacrityTextViewDSL.swift */,
+				D75F8FEFCF9A9F048A1A1DCF753A2FB6 /* AlacrityViewDSL.swift */,
+				BE8E89E030E0CB6FFD6AB975C7FB8A49 /* AlacrityWebViewDSL.swift */,
+				D45884AC11C96B4C1F9F4900791D4389 /* ControlDSL.swift */,
+				00010BCBA838D7FC5C762871CF6370A0 /* UIActivityIndicatorView+Alacrity.swift */,
+				173E628DE9DD33AA462CDF17F13B8B88 /* UIButton+Alacrity.swift */,
+				FF1E3B7D85E5E6F00643C70818823523 /* UICollectionView+Alacrity.swift */,
+				1FE50382F14CBB3F7A591BDF3C18C876 /* UICollectionViewCell+Alacrity.swift */,
+				38356FBEC2B44C5470C9644716F153D7 /* UIDatePicker+Alacrity.swift */,
+				952043EC29FE6838ECC09639FBB89E89 /* UIImageView+Alacrity.swift */,
+				340CE770ADDAA915ED53F31650ABE3DC /* UILabel+Alacrity.swift */,
+				9C56AC4679CF25C09B120D93C6A88F4A /* UIPageControl+Alacrity.swift */,
+				C55D6387C6E9D95E81F1E2E632D8171C /* UIPickerView+Alacrity.swift */,
+				6C498CEC98831E0957389F8B6E505FDD /* UIProgressView+Alacrity.swift */,
+				352EB4038A3308AFF0EB78AA37359439 /* UIScrollView+Alacrity.swift */,
+				CA51FCF8986A770689DFE309ADACAC21 /* UISegmentedControl+Alacrity.swift */,
+				1C3A67B162D3D1240D2273DD0A9E4245 /* UISlider+Alacrity.swift */,
+				0AFF755BC817B59339628F9456155224 /* UIStepper+Alacrity.swift */,
+				FD94F463B555A2CB69C5A06C70B5BA9F /* UISwitch+Alacrity.swift */,
+				BE38C9D8BC0D6AFFF68CC4D9271CAF31 /* UITableView+Alacrity.swift */,
+				6BF2A8242CFB0210BD97CF926382DD93 /* UITableViewCell+Alacrity.swift */,
+				C9573728649A27FA9F8A4FD88157768A /* UITextField+Alacrity.swift */,
+				4B496549547401A8251B9E30ACCEB4F9 /* UITextView+Alacrity.swift */,
+				24F7CCB336370FB3A79351543B393388 /* UIView+Alacrity.swift */,
+				B7B80CF068AB4E5A891250B3A2689477 /* UIWebView+Alacrity.swift */,
+				78EC465A22FF94216F505AEBEE1D1846 /* ViewDSL.swift */,
+				9B02271EEBFF80EBC880DED7C140B140 /* Support Files */,
+			);
+			name = Alacrity;
+			path = Alacrity;
+			sourceTree = "<group>";
+		};
+		D91898C86D6F3C82FA1EDBFF50D756AB /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				BF17BE2EC922D0AC844F35E73725B267 /* Constraint.swift */,
+				B7841C732BE55DAAF47D64711C5DA83F /* ConstraintAttributes.swift */,
+				AD1A857130630E2A77CFBD76CF32BD27 /* ConstraintConfig.swift */,
+				3F7F559EA40F7E1A6837178F7AC94527 /* ConstraintConstantTarget.swift */,
+				7983ACAFD439385968BF5AAAF54EC520 /* ConstraintDescription.swift */,
+				B40D8FD964B873C0D3AA8DCFBC837BBB /* ConstraintDSL.swift */,
+				C143398600907665434833D530094A91 /* ConstraintInsets.swift */,
+				C2A371BD15143E51A8F6E4575BC1A719 /* ConstraintInsetTarget.swift */,
+				E90A8B47DD6269C379031651AF9CA9FC /* ConstraintItem.swift */,
+				5B4A1CC917C4E4981EA10A31A62635A7 /* ConstraintLayoutGuide.swift */,
+				C4433F7E4BCC1EAF2DF6000D38A465DB /* ConstraintLayoutGuide+Extensions.swift */,
+				C6DF08BD2F536477E51A0498D9D58D29 /* ConstraintLayoutGuideDSL.swift */,
+				C04107F0FA8260FC59828D8ADC6452FF /* ConstraintLayoutSupport.swift */,
+				5098C99D6EC30610F9549DC9A0139039 /* ConstraintLayoutSupportDSL.swift */,
+				C2D7C03293A283EB67F9C805257080CE /* ConstraintMaker.swift */,
+				598E7411F2F73C69FBBDD979A3DEF9C7 /* ConstraintMakerEditable.swift */,
+				886BA4A750F5DF8CE127CEF4AC835919 /* ConstraintMakerExtendable.swift */,
+				A2892B5D316744F6A816DED815DA3DDB /* ConstraintMakerFinalizable.swift */,
+				31E3FCA610C8F4B23C19D29AB457205A /* ConstraintMakerPriortizable.swift */,
+				439BBCD59C2F8B210DE0E025431DF469 /* ConstraintMakerRelatable.swift */,
+				097D2BA752F2676BB6E148C9DA338E92 /* ConstraintMultiplierTarget.swift */,
+				FB2B017624A1A0AA1F3427DFE1A5094F /* ConstraintOffsetTarget.swift */,
+				573B24F882A8F703C34BDBBEA324DF0C /* ConstraintPriority.swift */,
+				524D0C4235083FD209F0804E975A6FE8 /* ConstraintPriorityTarget.swift */,
+				DC6939485DECAB677502F55BB418AA9A /* ConstraintRelatableTarget.swift */,
+				1DC151323C79D27B52110EA74B709310 /* ConstraintRelation.swift */,
+				1D448345E83B3E723FBF342DA40063E9 /* ConstraintView.swift */,
+				85552B84EB15A8C9CA14AAE19B654203 /* ConstraintView+Extensions.swift */,
+				30DD255D2CDCBC0B54FCBA1B7E263682 /* ConstraintViewDSL.swift */,
+				D18380ECDF1208256B0B7A5E629C7EA9 /* Debugging.swift */,
+				18C0A0B2EE3102FC1AED0A8985B3DD56 /* LayoutConstraint.swift */,
+				0D3C62AC9CD9AA62892A2A463B1CA90E /* LayoutConstraintItem.swift */,
+				20933C62264A7E83CB0BE201673349E6 /* Typealiases.swift */,
+				3709F81DA5D460D2FA4717280DD62419 /* UILayoutSupport+Extensions.swift */,
+				16ED7AA17054296308D1AD6F3141C180 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		EFD7DEA88C82E0EEC2798C497A11B038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E04875B9E2B19F2B59F07C475569B2E2 /* Alacrity.framework */,
+				9BF63369538DD97D48C70F7BAC2DDD3B /* Pods_Components.framework */,
+				2BBA4A8989BDB0F1D68BD20FCAC13EEB /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48F156279CBFB3409E1A67920CEBDF20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675B92CA73744D19C3400D123A07DF9E /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5723697BF2DDF89B9EF8865B9A134A42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364CA19C20D7B537E038365770EF74AE /* Alacrity-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A635A9C52778802592CB1906C7277B29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62EB7012C43F5E43AAC3B0C162F37EC6 /* Pods-Components-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45EEF73121FADCAF62A7104B5A057046 /* Pods-Components */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AC51B33AA0C61DAB4E8F0489E44F81B /* Build configuration list for PBXNativeTarget "Pods-Components" */;
+			buildPhases = (
+				4AC0A1B306B77B9A5FFCDA39F2BB0762 /* Sources */,
+				A03618048DE520D333DD90B0532FE2F5 /* Frameworks */,
+				A635A9C52778802592CB1906C7277B29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DEA2565F2BDE029C810AE9E333B8E26 /* PBXTargetDependency */,
+				C45F21781EB604E1B092ADF7236612BE /* PBXTargetDependency */,
+			);
+			name = "Pods-Components";
+			productName = "Pods-Components";
+			productReference = 9BF63369538DD97D48C70F7BAC2DDD3B /* Pods_Components.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFFAC91E7F77DC2AD42A54027AEFEF60 /* Alacrity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EE4C125F79625E060B484121B7018C /* Build configuration list for PBXNativeTarget "Alacrity" */;
+			buildPhases = (
+				4918DB61E1E7D54831D891279B38BA49 /* Sources */,
+				0C25B1ECED45FEC391730A3719C6492D /* Frameworks */,
+				5723697BF2DDF89B9EF8865B9A134A42 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alacrity;
+			productName = Alacrity;
+			productReference = E04875B9E2B19F2B59F07C475569B2E2 /* Alacrity.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5960B5EE6B3DA2D87506476F5AF097D /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCD131733CB5967EFD1F5913DFE9C85 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				1EEE3BFE6C4ED6562D13FF2B2D90DFFB /* Sources */,
+				21ECE2C161F1A6CB2F14A95C59CB34E3 /* Frameworks */,
+				48F156279CBFB3409E1A67920CEBDF20 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 2BBA4A8989BDB0F1D68BD20FCAC13EEB /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EFD7DEA88C82E0EEC2798C497A11B038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFFAC91E7F77DC2AD42A54027AEFEF60 /* Alacrity */,
+				45EEF73121FADCAF62A7104B5A057046 /* Pods-Components */,
+				F5960B5EE6B3DA2D87506476F5AF097D /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EEE3BFE6C4ED6562D13FF2B2D90DFFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB056EC689BE5F9DFFF1DB50945C91CE /* Constraint.swift in Sources */,
+				B318367E53FF996F6E252B5D44A30AFE /* ConstraintAttributes.swift in Sources */,
+				E70FDFFCEF0B5D8A7850DD1AC3C23479 /* ConstraintConfig.swift in Sources */,
+				1BC129E8884AA4E1FD66FCC5C7D7D8C5 /* ConstraintConstantTarget.swift in Sources */,
+				A3C7D7AB03FF6000083B225CCDD46E47 /* ConstraintDescription.swift in Sources */,
+				14929B76EF24CD97E625D530CE34C87C /* ConstraintDSL.swift in Sources */,
+				0B9A7BE9EC553D7761DD75A2DFC82BAF /* ConstraintInsets.swift in Sources */,
+				2146338F9F6437308E54638771BE3820 /* ConstraintInsetTarget.swift in Sources */,
+				A4F35D06B38C2E69538129DB742ECD70 /* ConstraintItem.swift in Sources */,
+				CC6C31A37E89FAC4F087893ED66EBCC9 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				B7B6D640AEFC3B336C374EE2F2E34AE0 /* ConstraintLayoutGuide.swift in Sources */,
+				AF56AFB9E4801431E4FCA0B04B023926 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				44B1BA1092AEB8D864FD5E03AAA234AE /* ConstraintLayoutSupport.swift in Sources */,
+				B78D9C1ED0B9CF23FE4DE36B43371A1B /* ConstraintLayoutSupportDSL.swift in Sources */,
+				0E1279E998027172E84223814AD2FA03 /* ConstraintMaker.swift in Sources */,
+				E2892F759B676EA1F9CF2542BEB3E9D1 /* ConstraintMakerEditable.swift in Sources */,
+				B60C5DC963F7161BCFFE47EC53EB65D6 /* ConstraintMakerExtendable.swift in Sources */,
+				3521533CA3B144F3F73AE254FDB7C51B /* ConstraintMakerFinalizable.swift in Sources */,
+				D392BB08C1AD24BC17337E443A64745A /* ConstraintMakerPriortizable.swift in Sources */,
+				44A75D1A2E33EC9B5E986F2BBE4C7B95 /* ConstraintMakerRelatable.swift in Sources */,
+				47F4793D5F705F17D628AFB2EFE9BA9B /* ConstraintMultiplierTarget.swift in Sources */,
+				A559459A188AF5A7A70890197A695123 /* ConstraintOffsetTarget.swift in Sources */,
+				DA5B35C6C3A46E892B10AC89078444EE /* ConstraintPriority.swift in Sources */,
+				193D7BCB85C5FEED317DAB2A676E98A8 /* ConstraintPriorityTarget.swift in Sources */,
+				D572A7167D3ED651E41C5255A0E9202F /* ConstraintRelatableTarget.swift in Sources */,
+				6B397F20E45E1C822E612EBA109E405A /* ConstraintRelation.swift in Sources */,
+				47231C85417B8CFE9AB2DE041CBEB1FE /* ConstraintView+Extensions.swift in Sources */,
+				85981A76D6DC4E16C28782BB8D51F22F /* ConstraintView.swift in Sources */,
+				07776041A816812DA9A9218155F8DD5B /* ConstraintViewDSL.swift in Sources */,
+				B029D62889454C3B58BA8FB7BB147FFF /* Debugging.swift in Sources */,
+				2F401E2EBCFDBEFD53829CE92053E28E /* LayoutConstraint.swift in Sources */,
+				3459048502D2ECA3F2F6478863D18CB3 /* LayoutConstraintItem.swift in Sources */,
+				3E995FEE854C494B8FEBE4ACB3ECD85F /* SnapKit-dummy.m in Sources */,
+				7401D4EEFECD4944A92E8D88F40EAAF9 /* Typealiases.swift in Sources */,
+				E9630B48D481C785A60300FD409E5A4E /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4918DB61E1E7D54831D891279B38BA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951F22FCA975358E44B1C27916D99E09 /* Alacrity-dummy.m in Sources */,
+				E53440D9ACB420EAB3AE1C61BD3801F1 /* AlacrityActivityIndicatorDSL.swift in Sources */,
+				956E41581DC328675ADF659BFCB0270D /* AlacrityButtonDSL.swift in Sources */,
+				AB122020032079F551971A75B12370D9 /* AlacrityCollectionViewCellDSL.swift in Sources */,
+				E362852F6FE721BDDEE62C4B14CD2C99 /* AlacrityCollectionViewDSL.swift in Sources */,
+				04F6E7750F38B2BFAD6F76FB8A6B94AA /* AlacrityDatePickerDSL.swift in Sources */,
+				0A40F582F4B4621AA5270BB07E81FD8A /* AlacrityImageViewDSL.swift in Sources */,
+				3FA34E4EA55EE1D7B53E37CA47CB74DF /* AlacrityLabelDSL.swift in Sources */,
+				87A6A663CE9548701DD7EF9580CA7F80 /* AlacrityPageControlDSL.swift in Sources */,
+				EA2290554BF29ADE3B77AE396B5A775D /* AlacrityPickerViewDSL.swift in Sources */,
+				0FB15BFA9221F59997BFA782593E1397 /* AlacrityProgressViewDSL.swift in Sources */,
+				267CF90AC17546FAFB35CC4F0E6C8D97 /* AlacrityScrollViewDSL.swift in Sources */,
+				C9A84D984D77DB9E6789E463BDFD4850 /* AlacritySegmentedControlDSL.swift in Sources */,
+				74DBDEC396FA2902B5830064D8F85CF4 /* AlacritySliderDSL.swift in Sources */,
+				9FAF8E230F9D4FB32A299264215E5EB1 /* AlacrityStepperDSL.swift in Sources */,
+				C1CEFD2429C9B1E1A9CAB89295DB06AE /* AlacrityStyle.swift in Sources */,
+				6F69953A26AD74D6D0D943485E96C02E /* AlacritySwitchDSL.swift in Sources */,
+				B31735DE4021FF6EEA6E8380957BC2AF /* AlacrityTableViewCellDSL.swift in Sources */,
+				04B9F92C95ADE87385DDAE1CDD04E522 /* AlacrityTableViewDSL.swift in Sources */,
+				6B62437B861212DE0FBA74173F73D16E /* AlacrityTextFieldDSL.swift in Sources */,
+				8D63075DAAD095EA6C2EB97636F1FF17 /* AlacrityTextViewDSL.swift in Sources */,
+				FA89F7D0763D4452B7388E48691AF2FD /* AlacrityViewDSL.swift in Sources */,
+				115C374EEBF02E6A6BE8E507C26D2FCF /* AlacrityWebViewDSL.swift in Sources */,
+				0F8A49B195AC3731A8C85832CE169EA4 /* ControlDSL.swift in Sources */,
+				8850476F7859958DB1A85C676E1E6BD1 /* UIActivityIndicatorView+Alacrity.swift in Sources */,
+				79F9C650EE832EE673175F751F292BD7 /* UIButton+Alacrity.swift in Sources */,
+				77A9C6D0C95070FEDFABE9294C75586C /* UICollectionView+Alacrity.swift in Sources */,
+				F0C0110A9D69CC7D14D66742673FCEB5 /* UICollectionViewCell+Alacrity.swift in Sources */,
+				BB47FE2434286B18EDE1536701E8F753 /* UIDatePicker+Alacrity.swift in Sources */,
+				891240B02B26E1CF14BBF8D1B1078A38 /* UIImageView+Alacrity.swift in Sources */,
+				37C8F7CBEB0D19532262D09BFCF30621 /* UILabel+Alacrity.swift in Sources */,
+				3D786319B3B59D51D6B19EBCFF94838B /* UIPageControl+Alacrity.swift in Sources */,
+				CDFCEEDD3C04B291DCE5F09DD9867D36 /* UIPickerView+Alacrity.swift in Sources */,
+				27B2FF5642E14FEECE29F2707B0E7E1F /* UIProgressView+Alacrity.swift in Sources */,
+				3EE6485BB10C270D24DFADB5E90E7723 /* UIScrollView+Alacrity.swift in Sources */,
+				F0AA812DE6977D3F9C4540D09E3ED0C4 /* UISegmentedControl+Alacrity.swift in Sources */,
+				14B4A1270F1530BF667FA62CE48CDAD6 /* UISlider+Alacrity.swift in Sources */,
+				164B3CF9774553A65574492E39A856DC /* UIStepper+Alacrity.swift in Sources */,
+				F51A9A9D0CBE92122B6E24FF92896684 /* UISwitch+Alacrity.swift in Sources */,
+				3666C321C39108983D5DD6F789708828 /* UITableView+Alacrity.swift in Sources */,
+				85B6B4ACE41F5D169B5E53C06DCFA099 /* UITableViewCell+Alacrity.swift in Sources */,
+				AC7CFCD6F89DB766C65377C19B9B593D /* UITextField+Alacrity.swift in Sources */,
+				0BCF63C0D8A71BCCEEEC2BA62994C473 /* UITextView+Alacrity.swift in Sources */,
+				CEC89D4F31E5555F6F41A1E8A65EDAD4 /* UIView+Alacrity.swift in Sources */,
+				AA89392A70FA6D217708825B68643CA1 /* UIWebView+Alacrity.swift in Sources */,
+				0D984E602B6E5C103497F0E828501327 /* ViewDSL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC0A1B306B77B9A5FFCDA39F2BB0762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC90F6C35A434E69589F57D3D73F79F7 /* Pods-Components-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DEA2565F2BDE029C810AE9E333B8E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alacrity;
+			target = AFFAC91E7F77DC2AD42A54027AEFEF60 /* Alacrity */;
+			targetProxy = 124187760759BC854F0557C822837D83 /* PBXContainerItemProxy */;
+		};
+		C45F21781EB604E1B092ADF7236612BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = F5960B5EE6B3DA2D87506476F5AF097D /* SnapKit */;
+			targetProxy = 14E96529B76E5661BD020C9F292AEE14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A060E51C46149CE5FC2934FFC0043A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 173ABE079A97602F4CAFFDF7434AFA0C /* Alacrity.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alacrity/Alacrity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alacrity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alacrity/Alacrity.modulemap";
+				PRODUCT_MODULE_NAME = Alacrity;
+				PRODUCT_NAME = Alacrity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48FCAA9EF134911778078650602BCA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DCDCB2E1166B1C95B81E7F97E6E991 /* Pods-Components.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Components/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Components/Pods-Components.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AF250605CC538E75023DFA8195828BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06735DB6764C899ABB89F43BBA6AD19F /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		558D3159FA9D195DF183CEECFFDA1BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06735DB6764C899ABB89F43BBA6AD19F /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AA88CE166C1F62DB21CBFC9C60950546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBFA416E69F64A608F0B71F9F28F0639 /* Pods-Components.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Components/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Components/Pods-Components.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FD486492E4AFDB294DAE08C6B5FE438D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 173ABE079A97602F4CAFFDF7434AFA0C /* Alacrity.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alacrity/Alacrity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alacrity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alacrity/Alacrity.modulemap";
+				PRODUCT_MODULE_NAME = Alacrity;
+				PRODUCT_NAME = Alacrity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BCD131733CB5967EFD1F5913DFE9C85 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF250605CC538E75023DFA8195828BF /* Debug */,
+				558D3159FA9D195DF183CEECFFDA1BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EE4C125F79625E060B484121B7018C /* Build configuration list for PBXNativeTarget "Alacrity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD486492E4AFDB294DAE08C6B5FE438D /* Debug */,
+				2A060E51C46149CE5FC2934FFC0043A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AC51B33AA0C61DAB4E8F0489E44F81B /* Build configuration list for PBXNativeTarget "Pods-Components" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA88CE166C1F62DB21CBFC9C60950546 /* Debug */,
+				48FCAA9EF134911778078650602BCA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
