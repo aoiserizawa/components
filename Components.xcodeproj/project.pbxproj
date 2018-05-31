@@ -13,7 +13,7 @@
 		776E3CB720BCEF0300D2A279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776E3CB620BCEF0300D2A279 /* Assets.xcassets */; };
 		776E3CBA20BCEF0300D2A279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776E3CB820BCEF0300D2A279 /* LaunchScreen.storyboard */; };
 		776E3CC220BCF61300D2A279 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3CC120BCF61300D2A279 /* MainView.swift */; };
-		776E3CC420BCFE1600D2A279 /* ComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3CC320BCFE1600D2A279 /* ComponentView.swift */; };
+		776E3CC420BCFE1600D2A279 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3CC320BCFE1600D2A279 /* FormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		776E3CB920BCEF0300D2A279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		776E3CBB20BCEF0400D2A279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		776E3CC120BCF61300D2A279 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		776E3CC320BCFE1600D2A279 /* ComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentView.swift; sourceTree = "<group>"; };
+		776E3CC320BCFE1600D2A279 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		CC67570619A41ECAF2CD3FA9 /* Pods_Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08A30778E09B0DD33F6243C /* Pods-Components.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Components/Pods-Components.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 				776E3CB620BCEF0300D2A279 /* Assets.xcassets */,
 				776E3CB820BCEF0300D2A279 /* LaunchScreen.storyboard */,
 				776E3CBB20BCEF0400D2A279 /* Info.plist */,
-				776E3CC320BCFE1600D2A279 /* ComponentView.swift */,
+				776E3CC320BCFE1600D2A279 /* FormView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				776E3CC420BCFE1600D2A279 /* ComponentView.swift in Sources */,
+				776E3CC420BCFE1600D2A279 /* FormView.swift in Sources */,
 				776E3CB220BCEF0200D2A279 /* ViewController.swift in Sources */,
 				776E3CC220BCF61300D2A279 /* MainView.swift in Sources */,
 				776E3CB020BCEF0200D2A279 /* AppDelegate.swift in Sources */,

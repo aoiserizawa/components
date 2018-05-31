@@ -10,24 +10,25 @@ import UIKit
 import Alacrity
 import SnapKit
 
-class MainView: UIView {
+public class MainView: UIView {
 
-    public let viewComponent: ComponentView = {
-        return ComponentView()
-    }()
+    public let myButton: UIButton = FormView.makeButton(
+        title: "Click Me",
+        tintColor: UIColor.white
+    )
 
-    lazy var myView: UIView = self.viewComponent.aView
-
-    lazy var myButton: UIButton = self.viewComponent.makeButton(title: "Click Me", tintColor: UIColor.white)
-
-    lazy var secondButton: UIButton = self.viewComponent.makeButton(title: "Oniichan", tintColor: UIColor.white)
+    public let secondButton: UIButton = FormView.makeButton(
+        title: "Oniichan",
+        tintColor: UIColor.white,
+        background: UIColor.black
+    )
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
 
         self.backgroundColor = UIColor.gray
 
-        self.avd.subviews(forAutoLayout: [self.myView, self.myButton, self.secondButton])
+        self.avd.subviews(forAutoLayout: [self.myButton, self.secondButton])
 
         self.myButton.snp.remakeConstraints { (make: ConstraintMaker) -> Void in
             make.top.equalToSuperview().offset(20.0)

@@ -17,14 +17,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(
-            target: self,
-            action: #selector(ViewController.viewAction)
-        )
-        
-        self.rootView.myView.isUserInteractionEnabled = true
-        self.rootView.myView.addGestureRecognizer(tap)
-
         self.rootView.myButton.addTarget(
             self,
             action: #selector(ViewController.viewAction),
@@ -38,7 +30,7 @@ class ViewController: UIViewController {
         )
 
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
