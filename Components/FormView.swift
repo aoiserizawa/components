@@ -16,6 +16,24 @@ public class FormView: UIView {
         super.init(frame: frame)
     }
 
+    public static func makeTextField(tintColor: UIColor) -> UITextField {
+        let textField: UITextField = UITextField().acy
+            .font(UIFont(name: "AvenirNext-Regular", size: 17.0)!)
+            .textColor(tintColor)
+            .backgroundColor(UIColor.clear)
+            .cornerRadius(5.0)
+            .apply({ (textField) -> Void in
+                textField.layer.borderColor = UIColor.white.cgColor
+                textField.layer.borderWidth = 1.0
+                textField.tintColor = UIColor.white
+            })
+            .view
+
+        textField.setLeftPaddingPoints(10.0)
+        textField.isSecureTextEntry = true
+        return textField
+    }
+
     public static func makeButton(title: String, tintColor: UIColor, background: UIColor = UIColor.clear) -> UIButton {
 
         let button: UIButton = UIButton().acy
@@ -42,3 +60,16 @@ public class FormView: UIView {
 
 }
 
+
+extension UITextField {
+    func setLeftPaddingPoints(_ amount:CGFloat){
+        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: amount, height: self.frame.size.height))
+        self.leftView = paddingView
+        self.leftViewMode = .always
+    }
+    func setRightPaddingPoints(_ amount:CGFloat) {
+        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: amount, height: self.frame.size.height))
+        self.rightView = paddingView
+        self.rightViewMode = .always
+    }
+}

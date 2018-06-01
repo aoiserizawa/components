@@ -23,13 +23,19 @@ public class MainView: UIView {
         background: UIColor.black
     )
 
+    public let textView: UITextField = FormView.makeTextField(tintColor: UIColor.white)
+
     public override init(frame: CGRect) {
         super.init(frame: frame)
 
         self.backgroundColor = UIColor.gray
 
-        self.avd.subviews(forAutoLayout: [self.myButton, self.secondButton])
-
+        self.avd.subviews(forAutoLayout: [
+                self.myButton, self.secondButton,
+                self.textView
+            ]
+        )
+        /*
         self.myButton.snp.remakeConstraints { (make: ConstraintMaker) -> Void in
             make.top.equalToSuperview().offset(20.0)
             make.width.equalTo(100.0)
@@ -39,6 +45,14 @@ public class MainView: UIView {
         self.secondButton.snp.remakeConstraints { (make: ConstraintMaker) -> Void in
             make.top.equalTo(self.myButton.snp.bottom).offset(20.0)
             make.width.equalTo(100.0)
+            make.centerX.equalToSuperview()
+        }
+        */
+
+        self.textView.snp.remakeConstraints { (make: ConstraintMaker) -> Void in
+            make.top.equalToSuperview().offset(20.0)
+            make.width.equalTo(200.0)
+            make.height.equalTo(40.0)
             make.centerX.equalToSuperview()
         }
 
