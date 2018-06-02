@@ -23,7 +23,13 @@ public class MainView: UIView {
         background: UIColor.black
     )
 
-    public let textView: UITextField = GhostFormView.makeTextField(tintColor: UIColor.white)
+    public let textView: UITextField = GhostFormView.makeTextField(tintColor: UIColor.white, placeHolder: "Usename")
+    
+    public let securetextField: UITextField = GhostFormView.makeTextField(
+        tintColor: UIColor.white,
+        secure: true,
+        placeHolder: "Password"
+    )
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -32,7 +38,7 @@ public class MainView: UIView {
 
         self.avd.subviews(forAutoLayout: [
                 self.myButton, self.secondButton,
-                self.textView
+                self.textView, self.securetextField
             ]
         )
         /*
@@ -51,6 +57,13 @@ public class MainView: UIView {
 
         self.textView.snp.remakeConstraints { (make: ConstraintMaker) -> Void in
             make.top.equalToSuperview().offset(20.0)
+            make.width.equalTo(200.0)
+            make.height.equalTo(40.0)
+            make.centerX.equalToSuperview()
+        }
+        
+        self.securetextField.snp.remakeConstraints { (make: ConstraintMaker) -> Void in
+            make.top.equalTo(self.textView.snp.bottom).offset(20.0)
             make.width.equalTo(200.0)
             make.height.equalTo(40.0)
             make.centerX.equalToSuperview()
