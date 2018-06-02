@@ -10,54 +10,52 @@ import UIKit
 import Alacrity
 import SnapKit
 
-public class FormView: UIView {
+public class GhostFormView: UIView {
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
     }
-
-    public static func makeTextField(tintColor: UIColor) -> UITextField {
+    
+    public static func makeTextField(tintColor: UIColor, secure: Bool = false, placeHolder: String = "") -> UITextField {
         let textField: UITextField = UITextField().acy
             .font(UIFont(name: "AvenirNext-Regular", size: 17.0)!)
             .textColor(tintColor)
             .backgroundColor(UIColor.clear)
             .cornerRadius(5.0)
-            .apply({ (textField) -> Void in
+            .placeholder(placeHolder)
+            .apply({ (textField: UITextField) -> Void in
                 textField.layer.borderColor = UIColor.white.cgColor
                 textField.layer.borderWidth = 1.0
                 textField.tintColor = UIColor.white
+                textField.setLeftPaddingPoints(10.0)
+                textField.isSecureTextEntry = secure
             })
             .view
-
-        textField.setLeftPaddingPoints(10.0)
-        textField.isSecureTextEntry = true
+        
         return textField
     }
-
+    
     public static func makeButton(title: String, tintColor: UIColor, background: UIColor = UIColor.clear) -> UIButton {
-
+        
         let button: UIButton = UIButton().acy
-            .setTitle("Sample", for: UIControlState.normal)
-            .setTitleColor(UIColor.blue, for: UIControlState.normal)
+            .setTitle(title, for: UIControlState.normal)
+            .setTitleColor(tintColor, for: UIControlState.normal)
             .backgroundColor(background)
             .cornerRadius(5.0)
-            .apply({ (button) -> Void in
+            .apply({ (button: UIButton) -> Void in
                 button.layer.borderColor = tintColor.cgColor
+                button.layer.borderWidth = 1.0
+                button.titleLabel?.font = UIFont(name: "AvenirNext-Regular", size: 17.0)
             })
             .view
-
-        button.layer.borderWidth = 1.0
-        button.setTitle(title, for: UIControlState.normal)
-        button.setTitleColor(tintColor, for: UIControlState.normal)
-        button.titleLabel?.font = UIFont(name: "AvenirNext-Regular", size: 17.0)
-
+        
         return button
     }
-
+    
     public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
+    
 }
 
 

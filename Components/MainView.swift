@@ -12,18 +12,18 @@ import SnapKit
 
 public class MainView: UIView {
 
-    public let myButton: UIButton = FormView.makeButton(
+    public let myButton: UIButton = GhostFormView.makeButton(
         title: "Click Me",
         tintColor: UIColor.white
     )
 
-    public let secondButton: UIButton = FormView.makeButton(
+    public let secondButton: UIButton = GhostFormView.makeButton(
         title: "Oniichan",
         tintColor: UIColor.white,
         background: UIColor.black
     )
 
-    public let textView: UITextField = FormView.makeTextField(tintColor: UIColor.white)
+    public let textView: UITextField = GhostFormView.makeTextField(tintColor: UIColor.white)
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
